@@ -19,27 +19,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"dayanuyim.github.io","root":"/blog/","images":"/blog/images","scheme":"Muse","darkmode":false,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"style":null,"show_result":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/blog/js/config.js"></script>
 
-    <meta name="description" content="常用指令    readelf objdump nm hexdump    Show Dyn. Sec. -d -p     Show Sec. Header -S -h     Show Prog. Header       Hex Dump of Sec.  -s [-j SEC]  -C -s $((0xSTART)) -n $((0xSIZE))   Disassembly of Sec.">
+    <meta name="description" content="個人評分：6.5  讀後心得故事一言以蔽之，就是女魔頭亡命天涯，連殺數人的故事。個人不算太喜歡這本，故事被作者寫得撲朔迷離，但情節並不特別。兇手的刻劃也呈現平面，為了作者殺人的成份居多。幾個殺人動機也顯得牽強：情殺(？)、財殺、路殺，不過算是故事線中最合理的解釋了。一如錢德勒喜歡的破題，當湖中女子出現，富家女與迷樣女的身份交換情節應不難想像才是。 另外要吐嘈的話，硬漢小說裡要角都是硬漢，女性每">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ELF">
-<meta property="og:url" content="https://dayanuyim.github.io/blog/2022/11/03/elf/index.html">
+<meta property="og:title" content="錢德勒(Chandler)&#x2F;湖中女子(Lady in the Lake)">
+<meta property="og:url" content="https://dayanuyim.github.io/blog/2022/11/08/books/lady-in-the-lake/index.html">
 <meta property="og:site_name" content="DAYANUYIM&#39;s">
-<meta property="og:description" content="常用指令    readelf objdump nm hexdump    Show Dyn. Sec. -d -p     Show Sec. Header -S -h     Show Prog. Header       Hex Dump of Sec.  -s [-j SEC]  -C -s $((0xSTART)) -n $((0xSIZE))   Disassembly of Sec.">
+<meta property="og:description" content="個人評分：6.5  讀後心得故事一言以蔽之，就是女魔頭亡命天涯，連殺數人的故事。個人不算太喜歡這本，故事被作者寫得撲朔迷離，但情節並不特別。兇手的刻劃也呈現平面，為了作者殺人的成份居多。幾個殺人動機也顯得牽強：情殺(？)、財殺、路殺，不過算是故事線中最合理的解釋了。一如錢德勒喜歡的破題，當湖中女子出現，富家女與迷樣女的身份交換情節應不難想像才是。 另外要吐嘈的話，硬漢小說裡要角都是硬漢，女性每">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-11-03T05:39:15.000Z">
-<meta property="article:modified_time" content="2022-11-03T08:39:04.174Z">
+<meta property="og:image" content="https://dayanuyim.github.io/blog/2022/11/08/books/lady-in-the-lake/book-cover.jpg">
+<meta property="article:published_time" content="2022-11-08T00:50:41.000Z">
+<meta property="article:modified_time" content="2022-11-08T02:01:56.468Z">
 <meta property="article:author" content="dayanuyim">
+<meta property="article:tag" content="chandler">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://dayanuyim.github.io/blog/2022/11/08/books/lady-in-the-lake/book-cover.jpg">
 
 
-<link rel="canonical" href="https://dayanuyim.github.io/blog/2022/11/03/elf/">
+<link rel="canonical" href="https://dayanuyim.github.io/blog/2022/11/08/books/lady-in-the-lake/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://dayanuyim.github.io/blog/2022/11/03/elf/","path":"2022/11/03/elf/","title":"ELF"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://dayanuyim.github.io/blog/2022/11/08/books/lady-in-the-lake/","path":"2022/11/08/books/lady-in-the-lake/","title":"錢德勒(Chandler)/湖中女子(Lady in the Lake)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>ELF | DAYANUYIM's</title>
+<title>錢德勒(Chandler)/湖中女子(Lady in the Lake) | DAYANUYIM's</title>
   
 
 
@@ -116,7 +119,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">常用指令</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%80%E5%BE%8C%E5%BF%83%E5%BE%97"><span class="nav-number">1.</span> <span class="nav-text">讀後心得</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -178,7 +181,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://dayanuyim.github.io/blog/2022/11/03/elf/">
+    <link itemprop="mainEntityOfPage" href="https://dayanuyim.github.io/blog/2022/11/08/books/lady-in-the-lake/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/blog/images/avatar.gif">
@@ -191,12 +194,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="ELF | DAYANUYIM's">
+      <meta itemprop="name" content="錢德勒(Chandler)/湖中女子(Lady in the Lake) | DAYANUYIM's">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          ELF
+          錢德勒(Chandler)/湖中女子(Lady in the Lake)
         </h1>
 
         <div class="post-meta-container">
@@ -208,7 +211,16 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2022-11-03 13:39:15 / Modified: 16:39:04" itemprop="dateCreated datePublished" datetime="2022-11-03T13:39:15+08:00">2022-11-03</time>
+      <time title="Created: 2022-11-08 08:50:41 / Modified: 10:01:56" itemprop="dateCreated datePublished" datetime="2022-11-08T08:50:41+08:00">2022-11-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/mystery/" itemprop="url" rel="index"><span itemprop="name">mystery</span></a>
+        </span>
     </span>
 
   
@@ -221,80 +233,12 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h1><table>
-<thead>
-<tr>
-<th></th>
-<th align="left">readelf</th>
-<th align="left">objdump</th>
-<th align="left">nm</th>
-<th align="left">hexdump</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Show Dyn. Sec.</td>
-<td align="left">-d</td>
-<td align="left">-p</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Show Sec. Header</td>
-<td align="left">-S</td>
-<td align="left">-h</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Show Prog. Header</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Hex Dump of Sec.</td>
-<td align="left"></td>
-<td align="left">-s [-j SEC]</td>
-<td align="left"></td>
-<td align="left">-C -s $((0xSTART)) -n $((0xSIZE))</td>
-</tr>
-<tr>
-<td>Disassembly of Sec.</td>
-<td align="left"></td>
-<td align="left">-d</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Show All Header</td>
-<td align="left">-a &#x2F; –all</td>
-<td align="left">-x</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Show Dyn. Symbol</td>
-<td align="left">-s &#x2F; –dyn-syms</td>
-<td align="left">-T &#x2F; –dynamic-syms</td>
-<td align="left">-D</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Show Symbol Table</td>
-<td align="left">-s &#x2F; –syms</td>
-<td align="left">-t &#x2F; –syms</td>
-<td align="left">-a</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Show Reloc Table</td>
-<td align="left">-r</td>
-<td align="left">-r</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-</tbody></table>
+        <p><img src="/blog/2022/11/08/books/lady-in-the-lake/book-cover.jpg" alt="cover"></p>
+<ul>
+<li>個人評分：6.5</li>
+</ul>
+<h2 id="讀後心得"><a href="#讀後心得" class="headerlink" title="讀後心得"></a>讀後心得</h2><p>故事一言以蔽之，就是<em>女魔頭亡命天涯，連殺數人</em>的故事。<br>個人不算太喜歡這本，故事被作者寫得撲朔迷離，但情節並不特別。<br>兇手的刻劃也呈現平面，為了作者殺人的成份居多。<br>幾個殺人動機也顯得牽強：情殺(？)、財殺、路殺，不過算是故事線中最合理的解釋了。<br>一如錢德勒喜歡的破題，當湖中女子出現，富家女與迷樣女的身份交換情節應不難想像才是。</p>
+<p>另外要吐嘈的話，硬漢小說裡要角都是硬漢，女性每每都是蛇蠍美人，讀多了真會審美疲勞。</p>
 
     </div>
 
@@ -303,19 +247,19 @@
     
 
     <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/blog/tags/chandler/" rel="tag"># chandler</a>
+          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/blog/2022/11/03/hexo-101/" rel="prev" title="HEXO 101">
-                  <i class="fa fa-chevron-left"></i> HEXO 101
+                <a href="/blog/2022/11/03/apa2/" rel="prev" title="APA2">
+                  <i class="fa fa-chevron-left"></i> APA2
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/blog/2022/11/03/apa2/" rel="next" title="APA2">
-                  APA2 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
