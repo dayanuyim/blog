@@ -1,5 +1,5 @@
 ---
-title: 錢德勒(Chandler)/湖中女子(Lady in the Lake)
+title: 錢德勒(Chandler)/湖中女子(The Lady in the Lake)
 date: 2022-11-08 08:50:41
 categories: mystery
 tags: chandler

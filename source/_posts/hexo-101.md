@@ -11,6 +11,11 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 $ hexo new "My New Post"
 ```
 
+Create a new post with specified path
+
+``` bash
+$ hexo new post --path books/some-novel "My New Post"
+```
 More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
