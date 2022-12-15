@@ -1,8 +1,10 @@
 ---
 title: 錢德勒(Chandler)/湖中女子(The Lady in the Lake)
 date: 2022-11-08 08:50:41
-categories: mystery
-tags: chandler
+categories: 小說
+tags: 
+   - 推理小說
+   - chandler
 ---
 
 ![cover](book-cover.jpg)

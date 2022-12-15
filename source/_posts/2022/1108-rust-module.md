@@ -1,7 +1,7 @@
 ---
 title: RUST Module
 date: 2022-11-08 23:25:19
-categories: proglang
+categories: 程式語言
 tags: rust
 ---
 
