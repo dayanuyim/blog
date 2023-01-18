@@ -1,5 +1,5 @@
 ---
-title: 獨臂刀王(1969)
+title: 獨臂刀王 / 張徹 / 1969
 date: 2022-12-15 17:24:39
 categories: 電影
 tags: 

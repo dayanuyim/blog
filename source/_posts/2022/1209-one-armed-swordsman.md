@@ -1,5 +1,5 @@
 ---
-title: 獨臂刀(1967)
+title: 獨臂刀 / 張徹 / 1967
 date: 2022-12-09 11:21:27
 categories: 電影
 tags:
