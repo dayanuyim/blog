@@ -105,7 +105,14 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#   type: git
+#   repo: https://<token>@github.com/dayanuyim/blog.git
+#   branch: gh-pages
 deploy:
   type: git
-  repo: https://github.com/dayanuyim/blog.git
+  repo:
+    github:
+      url: https://github.com/dayanuyim/blog.git
+      token: $GITHUB_TOKEN
   branch: gh-pages
